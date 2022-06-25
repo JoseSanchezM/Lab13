@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(236, 255, 151);
+}
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: rgb(225, 86, 86);
+    align-items: center;
+    color: white;
+}
+.logo,.input{
+    display: flex;
+}
+.logo img{
+    height: 50px;
+}
+.input input{
+    border-radius: 20px;
+    border-color: white;
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+}
+.input p{
+    padding: 10px;
+}
+nav{
+    background-color: rgb(168, 164, 164);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container{
+    background-color: rgb(236, 255, 151);
+    width: 1000px;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+ul,li{
+    list-style: none;
+}
+ul.carrusel{
+    position: relative;
+    width: 1000px;
+    height: 400px;
+}
+ul.carrusel li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+ul.carrusel li img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+ul.carrusel li:first-child{
+    opacity: 1;
+}
+ul.carrusel li:target{
+    opacity: 1;
+}
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:grey;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+div.page03{
+    padding: 20px;
+}
+div td{
+    padding: 5px;
+}
+.textt{
+    text-align: center;
+}
+.container01 img{
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    object-fit: cover;
+    border-color: rgb(236, 255, 151);
+    border-radius: 20px;
+}
+.img-thumbnail{
+    background-color: rgb(208, 252, 203);
+}
+.container01 img:hover{
+    border: 3px;
+}
